@@ -88,7 +88,7 @@ cd topologia
 ## 🐝 Passo 2 — Deploy da Topologia
 
 ```bash
-sudo containerlab deploy -t topologia.clab.yml --reconfigure
+sudo containerlab deploy -t topologia.yml --reconfigure
 ```
 
 Isso irá:
