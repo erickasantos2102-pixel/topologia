@@ -81,14 +81,14 @@ containerlab version
 Clone o repositório e acesse o diretório do laboratório:
 
 ```bash
-git clone https://github.com/seunomegit/lab.git
+git clone https://github.com/erickasantos2102-pixel/topologia.git
 cd lab
 ```
 
 ## 🐝 Passo 2 — Deploy da Topologia
 
 ```bash
-sudo containerlab deploy -t lab.clab.yml --reconfigure
+sudo containerlab deploy -t topologia.clab.yml --reconfigure
 ```
 
 Isso irá:
@@ -99,7 +99,7 @@ Isso irá:
 Verifique se o lab está rodando:
 
 ```bash
-docker ps --filter "label=containerlab=lab"
+docker ps --filter "label=containerlab=topologia"
 ```
 
 ---
@@ -120,8 +120,6 @@ docker exec clab-lab-node-a ping -c 3 10.0.0.2
 
 ## 📚 Referências
 
-- [Documentação Oficial do eBPF](https://ebpf.io/what-is-ebpf/)
+
 - [Documentação do Containerlab](https://containerlab.dev/quickstart/)
-- [Tutorial XDP (kernel.org)](https://github.com/xdp-project/xdp-tutorial)
-- [libbpf GitHub](https://github.com/libbpf/libbpf)
 - [nicolaka/netshoot — Container de diagnóstico de rede](https://github.com/nicolaka/netshoot)
